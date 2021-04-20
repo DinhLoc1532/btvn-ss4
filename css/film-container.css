@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.film-container {
+	background-color: #222;
+	width: 211px;
+	height: 355px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.film-image {
+	height: 275px;
+	background-image: url("http://image.phimmoizz.net/film/12404/poster.medium.jpg");
+	background-size: cover;
+	padding: 1px 3px;
+}
+
+.film-type {
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 7px 0 0 3px;
+	padding: 4px;
+}
+
+.film-info {
+	padding-left: 5px;
+	padding-top: 8px;
+}
+
+.film-originalName {
+	color: #44e2ff;
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 8px;
+}
+
+.film-name {
+	font-size: 14px;
+	color: #fff;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.film-duration {
+	font-size: 14px;
+	color: #acacac;
+	line-height: normal;
+}
